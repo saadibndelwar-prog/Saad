@@ -1,2 +1,77 @@
 # Saad
 saad is a modern, responsive business website designed to showcase professional services with style and clarity
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saad's Solutions</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Saad's Solutions</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+      <a href="#auth">Login/Sign Up</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Empowering Your Business</h2>
+    <p>Professional services tailored to your needs.</p>
+    <a href="#contact" class="btn">Get in Touch</a>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We help businesses grow through smart strategies and personalized support.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Consulting & Strategy</li>
+      <li>Marketing Solutions</li>
+      <li>Web Development</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <section id="auth">
+    <div class="form-container">
+      <h2>Sign Up</h2>
+      <form id="signup-form" action="#" method="post">
+        <input type="text" placeholder="Username" required />
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <button type="submit">Create Account</button>
+      </form>
+    </div>
+
+    <div class="form-container">
+      <h2>Log In</h2>
+      <form id="login-form" action="#" method="post">
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <button type="submit">Log In</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Saad's Solutions. All rights reserved.</p>
+  </footer>
+</body>
+</html>
